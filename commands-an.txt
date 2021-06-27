@@ -1,0 +1,23 @@
+ 
+source venv/bin/activate  #change direcotry
+ 
+ jango-admin help
+ jango-admin startproject webappName .
+
+
+ pip install pylint
+ python manage.py runserver
+
+
+ python manage.py startapp UI   #Create a view layer or any layers 
+
+
+
+ python manage.py collectstatic   #add CSS and JS into the directory and register
+
+
+
+
+pip install pycopg2
+pip install pycopg2-binary
+python manage.py showmigrations
