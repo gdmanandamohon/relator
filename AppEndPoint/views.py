@@ -15,8 +15,10 @@ def about(request):
 def login(request):
     return HttpResponse("")
 
+
 def register(request):
     return HttpResponse("")
 
+
 def listings(request):
-    return render(request, 'pages/listings.html')
+    return render(request, 'pages/listings/listings.html')
