@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'UI.apps.AppConfig',
+    'AppEndPoint.apps.AppendpointConfig',
+    'Listings.apps.ListingsConfig',
     'Realtor.apps.RealtorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
