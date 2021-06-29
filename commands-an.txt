@@ -9,7 +9,7 @@ source venv/bin/activate  #change direcotry
  python manage.py runserver
 
 
- python manage.py startapp UI   #Create a view layer or any layers 
+ python manage.py startapp UI   #Create a Middleware layer or any layers 
 
 
 
@@ -20,4 +20,8 @@ source venv/bin/activate  #change direcotry
 
 pip install pycopg2
 pip install pycopg2-binary
+pip install Pillow # for Image
+
 python manage.py showmigrations
+python manage.py migrate
+python manage.py makemigrations
